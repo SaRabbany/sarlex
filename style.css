@@ -742,7 +742,7 @@ footer .footer-bottom p {
 }
 
 .service-hero {
-  padding-top: 180px;
+  padding-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -853,7 +853,7 @@ footer .footer-bottom p {
 }
 
 .about-hero {
-  padding-top: 180px;
+  padding-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -1199,5 +1199,46 @@ footer .footer-bottom p {
 
 .web-develop-content .row a:hover {
   color: #ff6529;
+}
+
+section.portfolio .cardBox {
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+section.portfolio .cardBox .cardImgAndText {
+  position: relative;
+}
+
+section.portfolio .cardBox .cardImgAndText img {
+  border-radius: 18px;
+  z-index: 0;
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.portfolio .cardBox .cardImgAndText h4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 80px;
+  z-index: 20000;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.portfolio .cardBox:hover img {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  opacity: 0.6;
+}
+
+section.portfolio .cardBox:hover h4 {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
