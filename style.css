@@ -58,14 +58,17 @@ dl, ol, ul {
 header.header-hero {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#fef8f0), color-stop(#fff3ee), to(#fff1ee));
   background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
+  border-bottom: 3px solid #33475b;
   color: #33475b;
 }
 
 header.header-hero nav {
+  position: fixed;
   width: 100%;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background: #ffffff;
+  z-index: 100;
 }
 
 header.header-hero nav a {
@@ -97,7 +100,7 @@ header.header-hero nav .navbar-toggler:focus {
 }
 
 header.header-hero .container .headerContents {
-  padding: 80px 0 50px 0;
+  padding: 150px 0 50px 0;
 }
 
 header.header-hero .container .headerContents h1 {
@@ -751,7 +754,7 @@ footer .footer-bottom p {
 }
 
 .service-hero {
-  padding-top: 60px;
+  padding-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -924,7 +927,7 @@ footer .footer-bottom p {
 }
 
 .about-hero {
-  padding-top: 60px;
+  padding-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -1126,7 +1129,7 @@ footer .footer-bottom p {
 }
 
 .web-development-hero {
-  padding-top: 180px;
+  padding-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -1322,7 +1325,7 @@ contact page css styles
   background-color: #ffffff;
   background-attachment: fixed;
   background-size: cover;
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .contact-page .row .contact-form {
