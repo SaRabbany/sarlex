@@ -58,7 +58,6 @@ dl, ol, ul {
 header.header-hero {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#fef8f0), color-stop(#fff3ee), to(#fff1ee));
   background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
-  border-bottom: 3px solid #33475b;
   color: #33475b;
 }
 
