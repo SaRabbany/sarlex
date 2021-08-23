@@ -46,6 +46,15 @@ dl, ol, ul {
   color: #ff6529;
 }
 
+/*
+ button focus remove css
+*/
+.btn-check:focus + .btn, .btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 header.header-hero {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#fef8f0), color-stop(#fff3ee), to(#fff1ee));
   background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
@@ -352,6 +361,7 @@ section.intro .row .card:hover {
 }
 
 .service .container .card {
+  height: 600px;
   margin: 10px 15px;
   padding: 30px 10px;
   -webkit-transition: .15s ease-in-out,-webkit-transform .15s ease-in-out;
@@ -365,7 +375,7 @@ section.intro .row .card:hover {
 .service .container .card img {
   padding: 20px;
   text-align: center;
-  height: 300px;
+  height: 250px;
 }
 
 .service .container .card .card-body {
@@ -373,12 +383,12 @@ section.intro .row .card:hover {
 }
 
 .service .container .card .card-body h5 {
-  height: 50px;
   text-align: center;
   font-size: 24px;
   font-weight: 700;
   color: #33475b;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .service .container .card .card-body p {
