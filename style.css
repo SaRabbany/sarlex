@@ -852,6 +852,68 @@ footer .footer-bottom p {
   border-radius: 15px;
 }
 
+.portfolio-card {
+  margin-bottom: 50px;
+}
+
+.portfolio-card h1 {
+  color: #33475b;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.portfolio-card .row {
+  margin-top: 30px;
+}
+
+.portfolio-card .row .col {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.portfolio-card .row .col .card {
+  border: none !important;
+}
+
+.portfolio-card .row .col .card .card-header {
+  padding: 0;
+  border: none !important;
+  border-radius: 15px;
+}
+
+.portfolio-card .row .col .card .card-header img {
+  height: 350px;
+}
+
+.portfolio-card .row .col .card .card-body {
+  border-radius: 0 0 15px 15px;
+  padding: 20px 15px;
+}
+
+.portfolio-card .row .col .card .card-body h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #33475b;
+  padding: 0;
+}
+
+.portfolio-card .row .col .card .card-body p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #33475b;
+}
+
+.portfolio-card .row .col .card .card-body a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #33475b;
+  background-color: #ffffff7e;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+
 .about-hero {
   padding-top: 60px;
   margin-bottom: 50px;
@@ -1240,5 +1302,39 @@ section.portfolio .cardBox:hover img {
 
 section.portfolio .cardBox:hover h4 {
   opacity: 1;
+}
+
+/**
+
+contact page css styles
+
+**/
+.contact-page {
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.contact-page .row .contact-form {
+  padding: 0 20px;
+}
+
+.contact-page h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #33475b;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.contact-page input, .contact-page textarea {
+  background-color: #f3f3f3;
+  color: #33475b;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 20px;
+  border: none;
+  margin: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */
