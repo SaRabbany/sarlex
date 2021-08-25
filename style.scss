@@ -56,6 +56,13 @@ dl, ol, ul {
 
 
 // header or hero section start here
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+
+
+    width: 90%;
+}
+
 header.header-hero{
   background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
   border-bottom: 3px solid $themeMainTxtColor ;
@@ -813,6 +820,7 @@ footer{
     padding: 10px 25px;
     border-radius: 15px;
     margin-right: 10px;
+    margin-top: 10px;
   }
     }
   }
@@ -980,6 +988,7 @@ footer{
     padding: 10px 25px;
     border-radius: 15px;
     margin-right: 10px;
+    margin-top: 10px;
   }
     }
   }
@@ -1180,6 +1189,7 @@ i{
     padding: 10px 25px;
     border-radius: 15px;
     margin-right: 10px;
+    margin-top: 10px;
   }
     }
   }

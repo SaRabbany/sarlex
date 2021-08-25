@@ -55,6 +55,10 @@ dl, ol, ul {
           box-shadow: none;
 }
 
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  width: 90%;
+}
+
 header.header-hero {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#fef8f0), color-stop(#fff3ee), to(#fff1ee));
   background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
@@ -804,6 +808,7 @@ footer .footer-bottom p {
   padding: 10px 25px;
   border-radius: 15px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .service-card {
@@ -977,6 +982,7 @@ footer .footer-bottom p {
   padding: 10px 25px;
   border-radius: 15px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .experience {
@@ -1179,6 +1185,7 @@ footer .footer-bottom p {
   padding: 10px 25px;
   border-radius: 15px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .development-elements {
