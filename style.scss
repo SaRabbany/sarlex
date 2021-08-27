@@ -1066,75 +1066,193 @@ footer{
   }
 
 }
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
 
 .team{
-  background-color: rgba(246, 248, 249, 0.82);
-  padding:  100px 0;
-  h3{
-    font-weight: 500;
-    font-size: 16px;
-    color: #33475b;
-    text-align: center;
-  }
-  h2{
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f2f3f6;
+   h2{
     font-size: 36px;
     font-weight: 700;
     color:#33475b;
     text-align: center;
     margin-bottom: 30px;
   }
-.profile-view {
-  margin-top: 20px;
-  height: 300px;
+    p{
+     
+     color: #33475b;
+     font-size: 16px;
+     font-weight: 300;
+     text-align: center;
+  
+    }
+    .row{
+      margin-top: 20px;
+    }
+}
+.team .member {
   position: relative;
-  
-}
-
-.image {
-  border-radius: 20px;
-  opacity: 1;
-  display: block;
-  width: 100%;
-  
-  height: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.profile-view:hover .image {
-  opacity: 0.3;
-}
-
-.profile-view:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: #ffc582a4;
-  color: #33475b;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 16px 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 20px;
   border-radius: 10px;
-
-}
-i{
-  color: #33475b;
-  padding: 5px ;
+  background: #fff;
 }
 
+.team .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
 }
+
+.team .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member:hover img {
+  transform: scale(1.1);
+}
+
+.team .member .member-info {
+  padding-left: 30px;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #05579e;
+}
+
+.team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #bfe0fd;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #ecf6fe;
+  color: #0665b7;
+}
+
+.team .member .social a i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover {
+  background: #0880e8;
+  color: #fff;
+}
+
+.team .member .social a + a {
+  margin-left: 8px;
+}
+
+
+// .team{
+//   background-color: rgba(246, 248, 249, 0.82);
+//   padding:  100px 0;
+//   h3{
+//     font-weight: 500;
+//     font-size: 16px;
+//     color: #33475b;
+//     text-align: center;
+//   }
+//   h2{
+//     font-size: 36px;
+//     font-weight: 700;
+//     color:#33475b;
+//     text-align: center;
+//     margin-bottom: 30px;
+//   }
+// .profile-view {
+//   margin-top: 20px;
+//   height: 300px;
+//   position: relative;
+  
+// }
+
+// .image {
+//   border-radius: 20px;
+//   opacity: 1;
+//   display: block;
+//   width: 100%;
+  
+//   height: 100%;
+//   transition: .5s ease;
+//   backface-visibility: hidden;
+// }
+
+// .middle {
+//   transition: .5s ease;
+//   opacity: 0;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   text-align: center;
+// }
+
+// .profile-view:hover .image {
+//   opacity: 0.3;
+// }
+
+// .profile-view:hover .middle {
+//   opacity: 1;
+// }
+
+// .text {
+//   background-color: #ffc582a4;
+//   color: #33475b;
+//   font-weight: 500;
+//   font-size: 16px;
+//   padding: 16px 10px;
+//   border-radius: 10px;
+
+// }
+// i{
+//   color: #33475b;
+//   padding: 5px ;
+// }
+
+// }
 
 
 
